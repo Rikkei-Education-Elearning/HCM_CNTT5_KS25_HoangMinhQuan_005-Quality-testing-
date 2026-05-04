@@ -87,7 +87,7 @@ WHERE salary >= 50000000 and salary <= 150000000;
 SELECT * FROM Matches
 WHERE id = 'MS_007';
 
-SELECT nickname AND position FROM Teams
-WHERE region = 'Vietnam';
+-- SELECT nickname AND position FROM Teams
+-- WHERE region = 'Vietnam';
 
 DROP TABLE Matches, Match_statistic;
